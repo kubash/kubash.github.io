@@ -28,6 +28,11 @@ script:
 - /bin/bash -l -c "/usr/bin/time -v make -e ci"
   #- npm run lint
 deploy:
+  - provider: surge
+    project: ./public/
+    domain: kubash.org
+    on:
+      branch: gatsby
   - provider: pages
     skip-cleanup: true
     github-token: "$GITHUB_TOKEN"
@@ -36,10 +41,5 @@ deploy:
     target-branch: master
     fqdn: kubash.org
     verbose: true
-    on:
-      branch: gatsby
-  - provider: surge
-    project: ./public/
-    domain: kubash.org
     on:
       branch: gatsby
