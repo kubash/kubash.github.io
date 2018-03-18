@@ -1,13 +1,13 @@
 d:
-	cd dimension; gatsby develop
+	gatsby develop
 
 thalhalla: clean public
-	cd dimension; npm run deploy
+	npm run deploy
 
 public:
-	cd dimension; gatsby build
+	gatsby build
 
 clean:
-	cd dimension; rm -Rf public
+	rm -Rf public
 
 ci: clean public

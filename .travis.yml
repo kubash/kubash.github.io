@@ -25,6 +25,7 @@ before_install:
   fi
 script:
 - npm i
+- npm run lint
 - /bin/bash -l -c "/usr/bin/time -v make -e ci"
 deploy:
   provider: pages
