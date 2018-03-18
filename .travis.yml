@@ -31,7 +31,7 @@ deploy:
   skip-cleanup: true
   github-token: "$GITHUB_TOKEN"
   keep-history: false
-  local-dir: public
+  local-dir: dimension/public
   target-branch: master
   fqdn: kubash.github.io
   verbose: true
