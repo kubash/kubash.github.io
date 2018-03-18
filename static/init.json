@@ -1,0 +1,346 @@
+{
+  "height": 34,
+  "command": null,
+  "duration": 27.086486,
+  "env": {
+    "TERM": "screen",
+    "SHELL": "/bin/zsh"
+  },
+  "title": "Kubash init",
+  "version": 1,
+  "width": 127,
+  "stdout": [
+    [
+      1.0,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r"
+    ],
+    [
+      8e-05,
+      "\u001bk~\u001b\\"
+    ],
+    [
+      0.000164,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~% \u001b[K"
+    ],
+    [
+      0.000176,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.516166,
+      "k"
+    ],
+    [
+      0.20716,
+      "\bku"
+    ],
+    [
+      0.080338,
+      "b"
+    ],
+    [
+      0.13557,
+      "a"
+    ],
+    [
+      0.080409,
+      "s"
+    ],
+    [
+      0.079709,
+      "h"
+    ],
+    [
+      0.425519,
+      "\u001b[?1l\u001b>\r\r\n\u001bkkubash\u001b\\"
+    ],
+    [
+      0.059938,
+      "-------------------------------------------------------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      0.000546,
+      "Interactive Kubash Shell Enter 'help' for help, 'kh' for kubectl help or 'quit' to quit\r\nworking with the default kubash cluster, or set with 'clustername'\r\n"
+    ],
+    [
+      0.044218,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      0.933834,
+      "\r\r\u001b[K\r"
+    ],
+    [
+      0.000186,
+      "K8$ i"
+    ],
+    [
+      0.127731,
+      "n"
+    ],
+    [
+      0.047894,
+      "i"
+    ],
+    [
+      0.232172,
+      "t"
+    ],
+    [
+      0.472224,
+      "\b\b\b\b"
+    ],
+    [
+      7.4e-05,
+      "\u001b[K"
+    ],
+    [
+      0.001247,
+      "init\r\r\n"
+    ],
+    [
+      1.0,
+      "[preflight] Running pre-flight checks.\r\n[reset] Stopping the kubelet service.\r\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\r\n[reset] Removing kubernetes-managed containers.\r\n[reset] No etcd manifest found in \"/etc/kubernetes/manifests/etcd.yaml\". Assuming external etcd.\r\n[reset] Deleting contents of stateful directories: [/var/lib/kubelet /etc/cni/net.d /var/lib/dockershim /var/run/kubernetes]\r\n[reset] Deleting contents of config directories: [/etc/kubernetes/manifests /etc/kubernetes/pki]\r\n[reset] Deleting files: [/etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]\r\n"
+    ],
+    [
+      0.009916,
+      "[preflight] Running pre-flight checks.\r\n[reset] Stopping the kubelet service.\r\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\r\n[reset] Removing kubernetes-managed containers.\r\n[reset] No etcd manifest found in \"/etc/kubernetes/manifests/etcd.yaml\". Assuming external etcd.\r\n[reset] Deleting contents of stateful directories: [/var/lib/kubelet /etc/cni/net.d /var/lib/dockershim /var/run/kubernetes]\r\n[reset] Deleting contents of config directories: [/etc/kubernetes/manifests /etc/kubernetes/pki]\r\n[reset] Deleting files: [/etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]\r\n"
+    ],
+    [
+      0.008001,
+      "[preflight] Running pre-flight checks.\r\n[reset] Stopping the kubelet service.\r\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\r\n[reset] Removing kubernetes-managed containers.\r\n[reset] No etcd manifest found in \"/etc/kubernetes/manifests/etcd.yaml\". Assuming external etcd.\r\n[reset] Deleting contents of stateful directories: [/var/lib/kubelet /etc/cni/net.d /var/lib/dockershim /var/run/kubernetes]\r\n[reset] Deleting contents of config directories: [/etc/kubernetes/manifests /etc/kubernetes/pki]\r\n[reset] Deleting files: [/etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]\r\n[preflight] Running pre-flight checks.\r\n[reset] Stopping the kubelet service.\r\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\r\n[reset] Removing kubernetes-managed containers.\r\n[reset] No etcd manifest found in \"/etc/kubernetes/manifests/etcd.yaml\". Assuming external etcd.\r\n[reset] Deleting contents of stateful directories: [/var/lib/kubelet /"
+    ],
+    [
+      5.5e-05,
+      "etc/cni/net.d /var/lib/dockershim /var/run/kubernetes]\r\n[reset] Deleting contents of config directories: [/etc/kubernetes/manifests /etc/kubernetes/pki]\r\n[reset] Deleting files: [/etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]\r\n"
+    ],
+    [
+      0.000851,
+      "[preflight] Running pre-flight checks.\r\n[reset] Stopping the kubelet service.\r\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\r\n[reset] Removing kubernetes-managed containers.\r\n[reset] No etcd manifest found in \"/etc/kubernetes/manifests/etcd.yaml\". Assuming external etcd.\r\n[reset] Deleting contents of stateful directories: [/var/lib/kubelet /etc/cni/net.d /var/lib/dockershim /var/run/kubernetes]\r\n[reset] Deleting contents of config directories: [/etc/kubernetes/manifests /etc/kubernetes/pki]\r\n[reset] Deleting files: [/etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]\r\n"
+    ],
+    [
+      0.656232,
+      "[preflight] Running pre-flight checks.\r\n[reset] Stopping the kubelet service.\r\n[reset] Unmounting mounted directories in \"/var/lib/kubelet\"\r\n[reset] Removing kubernetes-managed containers.\r\n[reset] No etcd manifest found in \"/etc/kubernetes/manifests/etcd.yaml\". Assuming external etcd.\r\n[reset] Deleting contents of stateful directories: [/var/lib/kubelet /etc/cni/net.d /var/lib/dockershim /var/run/kubernetes]\r\n[reset] Deleting contents of config directories: [/etc/kubernetes/manifests /etc/kubernetes/pki]\r\n[reset] Deleting files: [/etc/kubernetes/admin.conf /etc/kubernetes/kubelet.conf /etc/kubernetes/controller-manager.conf /etc/kubernetes/scheduler.conf]\r\n"
+    ],
+    [
+      1.0,
+      "total 12K\r\n-rw-rw-r--. 1 coopadmin coopadmin 867 Mar 18 18:08 ca-config.json\r\n-rw-rw-r--. 1 coopadmin coopadmin 268 Mar 18 18:08 ca-csr.json\r\n-rw-rw-r--. 1 coopadmin coopadmin  88 Mar 18 18:08 client.json\r\n"
+    ],
+    [
+      1.0,
+      "mv: cannot stat ‘/tmp/cfssljson’: No such file or directory\r\n"
+    ],
+    [
+      0.023883,
+      "mv: cannot stat ‘/tmp/cfssljson’: No such file or directory\r\n"
+    ],
+    [
+      1.0,
+      "2018/03/18 18:08:34 [INFO] generating a new CA key and certificate from CSR\r\n2018/03/18 18:08:34 [INFO] generate received request\r\n2018/03/18 18:08:34 [INFO] received CSR\r\n2018/03/18 18:08:34 [INFO] generating key: rsa-2048\r\n"
+    ],
+    [
+      0.290838,
+      "2018/03/18 18:08:34 [INFO] encoded CSR\r\n"
+    ],
+    [
+      0.020005,
+      "2018/03/18 18:08:34 [INFO] signed certificate with serial number 363072520105229416679451385248437789052886816610\r\n"
+    ],
+    [
+      0.398642,
+      "2018/03/18 18:08:34 [INFO] generate received request\r\n2018/03/18 18:08:34 [INFO] received CSR\r\n2018/03/18 18:08:34 [INFO] generating key: ecdsa-256\r\n"
+    ],
+    [
+      0.032516,
+      "2018/03/18 18:08:34 [INFO] encoded CSR\r\n"
+    ],
+    [
+      0.006459,
+      "2018/03/18 18:08:34 [INFO] signed certificate with serial number 387295711538227851062887116625904522552861880030\r\n2018/03/18 18:08:34 [WARNING] This certificate lacks a \"hosts\" field. This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n"
+    ],
+    [
+      0.850218,
+      "tar: Removing leading `/' from member names\r\n"
+    ],
+    [
+      1.0,
+      "2018/03/18 18:08:40 [INFO] generate received request\r\n2018/03/18 18:08:40 [INFO] received CSR\r\n2018/03/18 18:08:40 [INFO] generating key: ecdsa-256\r\n"
+    ],
+    [
+      0.04176,
+      "2018/03/18 18:08:40 [INFO] encoded CSR\r\n"
+    ],
+    [
+      0.007878,
+      "2018/03/18 18:08:40 [INFO] signed certificate with serial number 325528130676036242095550297562185542644830646855\r\n2018/03/18 18:08:40 [WARNING] This certificate lacks a \"hosts\" field. This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n"
+    ],
+    [
+      0.401137,
+      "2018/03/18 18:08:41 [INFO] generate received request\r\n2018/03/18 18:08:41 [INFO] received CSR\r\n2018/03/18 18:08:41 [INFO] generating key: ecdsa-256\r\n"
+    ],
+    [
+      0.031909,
+      "2018/03/18 18:08:41 [INFO] encoded CSR\r\n"
+    ],
+    [
+      0.006369,
+      "2018/03/18 18:08:41 [INFO] signed certificate with serial number 736884268833878907197255115813137380297288031\r\n2018/03/18 18:08:41 [WARNING] This certificate lacks a \"hosts\" field. This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n"
+    ],
+    [
+      1.0,
+      "2018/03/18 18:08:51 [INFO] generate received request\r\n2018/03/18 18:08:51 [INFO] received CSR\r\n2018/03/18 18:08:51 [INFO] generating key: ecdsa-256\r\n2018/03/18 18:08:51 [INFO] encoded CSR\r\n2018/03/18 18:08:51 [INFO] signed certificate with serial number 372611814333051422690947071332573147636539392366\r\n2018/03/18 18:08:51 [WARNING] This certificate lacks a \"hosts\" field. This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n2018/03/18 18:08:52 [INFO] generate received request\r\n2018/03/18 18:08:52 [INFO] received CSR\r\n2018/03/18 18:08:52 [INFO] generating key: ecdsa-256\r\n2018/03/18 18:08:52 [INFO] encoded CSR\r\n2018/03/18 18:08:52 [INFO] signed certificate with serial number 155279331983671768734092125619329947407307237962\r\n2018/03/18 18:08:52 [WARNING] This certificate lacks a \"hosts\" field"
+    ],
+    [
+      4.1e-05,
+      ". This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n"
+    ],
+    [
+      0.264009,
+      "2018/03/18 18:08:51 [INFO] generate received request\r\n2018/03/18 18:08:51 [INFO] received CSR\r\n2018/03/18 18:08:51 [INFO] generating key: ecdsa-256\r\n2018/03/18 18:08:51 [INFO] encoded CSR\r\n2018/03/18 18:08:51 [INFO] signed certificate with serial number 424150890672097354052078994713690515860564354534\r\n2018/03/18 18:08:51 [WARNING] This certificate lacks a \"hosts\" field. This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n2018/03/18 18:08:52 [INFO] generate received request\r\n2018/03/18 18:08:52 [INFO] received CSR\r\n2018/03/18 18:08:52 [INFO] generating key: ecdsa-256\r\n2018/03/18 18:08:52 [INFO] encoded CSR\r\n2018/03/18 18:08:52 [INFO] signed certificate with serial number 360700391592274614743977287975195938354095255615\r\n2018/03/18 18:08:52 [WARNING] This certificate lacks a \"hosts\" field"
+    ],
+    [
+      3.6e-05,
+      ". This makes it unsuitable for\r\nwebsites. For more information see the Baseline Requirements for the Issuance and Management\r\nof Publicly-Trusted Certificates, v.1.1.6, from the CA/Browser Forum (https://cabforum.org);\r\nspecifically, section 10.2.3 (\"Information Requirements\").\r\n"
+    ],
+    [
+      1.0,
+      "master01\r\n"
+    ],
+    [
+      0.010016,
+      "Linux master01 3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux\r\n"
+    ],
+    [
+      1.0,
+      "\t[WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 17.12.1-ce. Max validated version: 17.03\r\n"
+    ],
+    [
+      0.181605,
+      "\t[WARNING FileExisting-crictl]: crictl not found in system path\r\n"
+    ],
+    [
+      1.0,
+      "‘/etc/kubernetes/admin.conf’ -> ‘/root/.kube/config’\r\n"
+    ],
+    [
+      1.0,
+      "tar: Removing leading `/' from member names\r\n"
+    ],
+    [
+      1.0,
+      "clusterrole \"flannel\" created\r\n"
+    ],
+    [
+      0.105565,
+      "clusterrolebinding \"flannel\" created\r\n"
+    ],
+    [
+      0.022882,
+      "serviceaccount \"flannel\" created\r\n"
+    ],
+    [
+      0.054034,
+      "configmap \"kube-flannel-cfg\" created\r\n"
+    ],
+    [
+      0.069389,
+      "daemonset \"kube-flannel-ds\" created\r\n"
+    ],
+    [
+      1.0,
+      "[init] Using Kubernetes version: v1.9.3\r\n[init] Using Authorization modes: [Node RBAC]\r\n[preflight] Running pre-flight checks.\r\n[preflight] Starting the kubelet service\r\n[certificates] Using the existing ca certificate and key.\r\n[certificates] Generated apiserver certificate and key.\r\n[certificates] apiserver serving cert is signed for DNS names [master03 kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local] and IPs [10.96.0.1 192.168.122.216 127.0.0.1 192.168.122.216 192.168.122.216]\r\n[certificates] Generated apiserver-kubelet-client certificate and key.\r\n[certificates] Using the existing sa key.\r\n[certificates] Generated front-proxy-ca certificate and key.\r\n[certificates] Generated front-proxy-client certificate and key.\r\n[certificates] Valid certificates and keys now exist in \"/etc/kubernetes/pki\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"admin.conf\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"kubelet.conf\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"controller-"
+    ],
+    [
+      6.7e-05,
+      "manager.conf\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"scheduler.conf\"\r\n[controlplane] Wrote Static Pod manifest for component kube-apiserver to \"/etc/kubernetes/manifests/kube-apiserver.yaml\"\r\n[controlplane] Wrote Static Pod manifest for component kube-controller-manager to \"/etc/kubernetes/manifests/kube-controller-manager.yaml\"\r\n[controlplane] Wrote Static Pod manifest for component kube-scheduler to \"/etc/kubernetes/manifests/kube-scheduler.yaml\"\r\n[init] Waiting for the kubelet to boot up the control plane as Static Pods from directory \"/etc/kubernetes/manifests\".\r\n[init] This might take a minute or longer if the control plane images have to be pulled.\r\n[apiclient] All control plane components are healthy after 0.019505 seconds\r\n[uploadconfig] Storing the configuration used in ConfigMap \"kubeadm-config\" in the \"kube-system\" Namespace\r\n[markmaster] Will mark node master03 as master by adding a label and a taint\r\n[markmaster] Master master03 tainted and labelled with key/value: node-role.kubernetes.io"
+    ],
+    [
+      3.4e-05,
+      "/master=\"\"\r\n[bootstraptoken] Using token: ace167.4fa02e97530dce97\r\n[bootstraptoken] Configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials\r\n[bootstraptoken] Configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token\r\n[bootstraptoken] Configured RBAC rules to allow certificate rotation for all node client certificates in the cluster\r\n[bootstraptoken] Creating the \"cluster-info\" ConfigMap in the \"kube-public\" namespace\r\n[addons] Applied essential addon: kube-dns\r\n[addons] Applied essential addon: kube-proxy\r\n\r\nYour Kubernetes master has initialized successfully!\r\n\r\nTo start using your cluster, you need to run the following as a regular user:\r\n\r\n  mkdir -p $HOME/.kube\r\n  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config\r\n  sudo chown $(id -u):$(id -g) $HOME/.kube/config\r\n\r\nYou should now deploy a pod network to the cluster.\r\nRun \"kubectl apply -f [podnetwork].yaml\" with one of the o"
+    ],
+    [
+      3.9e-05,
+      "ptions listed at:\r\n  https://kubernetes.io/docs/concepts/cluster-administration/addons/\r\n\r\nYou can now join any number of machines by running the following on each node\r\nas root:\r\n\r\n  kubeadm join --token ace167.4fa02e97530dce97 192.168.122.216:6443 --discovery-token-ca-cert-hash sha256:79766adc2500c7a8a585bc0258f6c617b8fafbffb62fef9c382d66b26b5cdca9\r\n\r\n\t[WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 17.12.1-ce. Max validated version: 17.03\r\n\t[WARNING FileExisting-crictl]: crictl not found in system path\r\n"
+    ],
+    [
+      0.025697,
+      "[init] Using Kubernetes version: v1.9.3\r\n[init] Using Authorization modes: [Node RBAC]\r\n[preflight] Running pre-flight checks.\r\n[preflight] Starting the kubelet service\r\n[certificates] Using the existing ca certificate and key.\r\n[certificates] Generated apiserver certificate and key.\r\n[certificates] apiserver serving cert is signed for DNS names [master02 kubernetes kubernetes.default kubernetes.default.svc kubernetes.default.svc.cluster.local] and IPs [10.96.0.1 192.168.122.216 127.0.0.1 192.168.122.216 192.168.122.216]\r\n[certificates] Generated apiserver-kubelet-client certificate and key.\r\n[certificates] Using the existing sa key.\r\n[certificates] Generated front-proxy-ca certificate and key.\r\n[certificates] Generated front-proxy-client certificate and key.\r\n[certificates] Valid certificates and keys now exist in \"/etc/kubernetes/pki\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"admin.conf\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"kubelet.conf\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"controller-"
+    ],
+    [
+      5.5e-05,
+      "manager.conf\"\r\n[kubeconfig] Wrote KubeConfig file to disk: \"scheduler.conf\"\r\n[controlplane] Wrote Static Pod manifest for component kube-apiserver to \"/etc/kubernetes/manifests/kube-apiserver.yaml\"\r\n[controlplane] Wrote Static Pod manifest for component kube-controller-manager to \"/etc/kubernetes/manifests/kube-controller-manager.yaml\"\r\n[controlplane] Wrote Static Pod manifest for component kube-scheduler to \"/etc/kubernetes/manifests/kube-scheduler.yaml\"\r\n[init] Waiting for the kubelet to boot up the control plane as Static Pods from directory \"/etc/kubernetes/manifests\".\r\n[init] This might take a minute or longer if the control plane images have to be pulled.\r\n[apiclient] All control plane components are healthy after 0.021489 seconds\r\n[uploadconfig] Storing the configuration used in ConfigMap \"kubeadm-config\" in the \"kube-system\" Namespace\r\n[markmaster] Will mark node master02 as master by adding a label and a taint\r\n[markmaster] Master master02 tainted and labelled with key/value: node-role.kubernetes.io"
+    ],
+    [
+      3.3e-05,
+      "/master=\"\"\r\n[bootstraptoken] Using token: c979dc.741d280875c027c0\r\n[bootstraptoken] Configured RBAC rules to allow Node Bootstrap tokens to post CSRs in order for nodes to get long term certificate credentials\r\n[bootstraptoken] Configured RBAC rules to allow the csrapprover controller automatically approve CSRs from a Node Bootstrap Token\r\n[bootstraptoken] Configured RBAC rules to allow certificate rotation for all node client certificates in the cluster\r\n[bootstraptoken] Creating the \"cluster-info\" ConfigMap in the \"kube-public\" namespace\r\n[addons] Applied essential addon: kube-dns\r\n[addons] Applied essential addon: kube-proxy\r\n\r\nYour Kubernetes master has initialized successfully!\r\n\r\nTo start using your cluster, you need to run the following as a regular user:\r\n\r\n  mkdir -p $HOME/.kube\r\n  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config\r\n  sudo chown $(id -u):$(id -g) $HOME/.kube/config\r\n\r\nYou should now deploy a pod network to the cluster.\r\nRun \"kubectl apply -f [podnetwork].yaml\" with one of the o"
+    ],
+    [
+      3.1e-05,
+      "ptions listed at:\r\n  https://kubernetes.io/docs/concepts/cluster-administration/addons/\r\n\r\nYou can now join any number of machines by running the following on each node\r\nas root:\r\n\r\n  kubeadm join --token c979dc.741d280875c027c0 192.168.122.216:6443 --discovery-token-ca-cert-hash sha256:79766adc2500c7a8a585bc0258f6c617b8fafbffb62fef9c382d66b26b5cdca9\r\n\r\n\t[WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 17.12.1-ce. Max validated version: 17.03\r\n\t[WARNING FileExisting-crictl]: crictl not found in system path\r\n"
+    ],
+    [
+      1.0,
+      "\t[WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 17.12.1-ce. Max validated version: 17.03\r\n\t[WARNING FileExisting-crictl]: crictl not found in system path\r\n"
+    ],
+    [
+      0.013443,
+      "\t[WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 17.12.1-ce. Max validated version: 17.03\r\n\t[WARNING FileExisting-crictl]: crictl not found in system path\r\n"
+    ],
+    [
+      1.0,
+      "\t[WARNING SystemVerification]: docker version is greater than the most recently validated version. Docker version: 17.12.1-ce. Max validated version: 17.03\r\n\t[WARNING FileExisting-crictl]: crictl not found in system path\r\n"
+    ],
+    [
+      0.681122,
+      "‘/etc/kubernetes/admin.conf’ -> ‘/root/.kube/config’\r\n"
+    ],
+    [
+      1.0,
+      "\r\n"
+    ],
+    [
+      0.044228,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      1.0,
+      "\r\r\u001b[K\r"
+    ],
+    [
+      0.000197,
+      "K8$ "
+    ],
+    [
+      4e-05,
+      "e"
+    ],
+    [
+      0.151795,
+      "x"
+    ],
+    [
+      0.095917,
+      "i"
+    ],
+    [
+      0.096167,
+      "t"
+    ],
+    [
+      1.0,
+      "\b\b\b\b\u001b[K"
+    ],
+    [
+      0.001173,
+      "exit\r\r\n"
+    ],
+    [
+      0.016781,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r\u001bk~\u001b\\\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~% \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      1.0,
+      "\r\r\n"
+    ]
+  ]
+}

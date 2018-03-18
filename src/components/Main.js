@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Asciinema from '../components/Asciinema'
+import AsciinemaSelf from '../components/AsciinemaSelf'
 
 class Main extends React.Component {
   render() {
@@ -14,7 +14,7 @@ class Main extends React.Component {
         <article id="build" className={`${this.props.article === 'build' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Build</h2>
           <p>kubash build - builds images by default using packer.</p>
-          <Asciinema asciinema_id="164070"/>
+          <AsciinemaSelf localpath='/build.json'/>
           <h3 >SSH keys</h3>
           <p>
             ssh keys can be added to the
@@ -97,21 +97,26 @@ class Main extends React.Component {
           <p>
             `--target-build beta`
           </p>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/build.md'>build documentation page</a>.</p>
           {close}
         </article>
 
         <article id="provision" className={`${this.props.article === 'provision' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Provision</h2>
           <p>kubash provision - provisions virtual machines by default using qemu/KVM.</p>
-          <Asciinema asciinema_id="170578"/>
+          <AsciinemaSelf localpath='/provision.json'/>
+          <p>After which you will have 6 new VMs, 3 masters, and 3 nodes.  This can be altered by creating your own cluster yaml file. There is an <a href='https://github.com/kubash/kubash/blob/master/examples/example-cluster.yaml'>example file</a> in the repo.</p>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/provision.md'>provision documentation page</a>.</p>
           {close}
         </article>
 
         <article id="init" className={`${this.props.article === 'init' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Init</h2>
           <p>kubash init - initialize virtual machines by default using kubeadm.</p>
-          <Asciinema asciinema_id="170585"/>
-          <p>Optionally you can use alternative initializers as well using the '--initializer' option (right now kubespray, openshift, kubeadm2ha are available).</p>
+          <AsciinemaSelf localpath='/init.json'/>
+          <p>Optionally you can use alternative initializers
+            as well using the '--initializer' option (right now kubespray, openshift, kubeadm2ha are available).</p>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/init.md'>init documentation page</a>.</p>
           {close}
         </article>
 
@@ -128,7 +133,8 @@ class Main extends React.Component {
           </p>
           <p>Helm can be used as well from the K8$ shell try 'helm search prometheus'.</p>
           <p>There are also many shortcuts for using kubectl directly from the K8$ shell.</p>
-          <Asciinema asciinema_id="170587"/>
+          <AsciinemaSelf localpath='/interactive.json'/>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/interactive.md'>interactive documentation page</a>.</p>
           <p></p>
           {close}
         </article>
