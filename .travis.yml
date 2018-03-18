@@ -25,8 +25,8 @@ before_install:
   fi
 script:
 - npm i
-- npm run lint
 - /bin/bash -l -c "/usr/bin/time -v make -e ci"
+  #- npm run lint
 deploy:
   provider: pages
   skip-cleanup: true
