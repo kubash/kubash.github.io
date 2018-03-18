@@ -34,12 +34,12 @@ deploy:
     keep-history: false
     local-dir: public
     target-branch: master
-    fqdn: kubash.github.io
+    fqdn: kubash.org
     verbose: true
     on:
       branch: gatsby
   - provider: surge
     project: ./public/
-    domain: kubash.surge.sh
+    domain: kubash.org
     on:
       branch: gatsby
