@@ -5,8 +5,10 @@ matrix:
     sudo: false
     cache:
       directories:
-        #- "$HOME/.npm"
-      - #".git"
+      - "$HOME/.npm"
+      - ".git"
+      - ".cache"
+      - ".node_modules"
     env:
     - builder=travis
 language: node_js
