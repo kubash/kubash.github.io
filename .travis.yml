@@ -2,30 +2,24 @@ matrix:
   include:
   - os: linux
     dist: trusty
-    sudo: required
-    services:
-    - docker
+    sudo: false
     cache:
       directories:
-      - "$HOME/.npm"
-      - ".git"
+        #- "$HOME/.npm"
+      - #".git"
     env:
     - builder=travis
 language: node_js
 node_js:
 - 8
-addons:
-  apt:
-    packages:
-    - curl
-    - socat
-    - time
+
 before_install:
 - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then npm install -g eslint gatsby-cli gh-pages;
   fi
 script:
 - npm i
 - /bin/bash -l -c "/usr/bin/time -v make -e ci"
+- ls -alh
   #- npm run lint
 deploy:
   provider: pages
