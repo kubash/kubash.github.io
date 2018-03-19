@@ -18,83 +18,51 @@ class Main extends React.Component {
           <h3 >SSH keys</h3>
           <p>
             ssh keys can be added to the
-            `authorized_keys` on the hosts, either by setting the key as an environment variable directly as:
-          </p>
-          <p>
-            KEYS_TO_ADD='ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTY68No= adminuser@testbox'
-          </p>
-          <p>
-            Or alternatively give it an url to a set of pubkeys:
-          </p>
-          <p>
-            KEYS_URL='https://raw.githubusercontent.com/myorg/keys/master/keys'
+            `authorized_keys` on the hosts, either by setting the key as an environment variable directly as:<br/>
+            KEYS_TO_ADD='ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTY68No= adminuser@testbox'<br/>
+            Or alternatively give it an url to a set of pubkeys:<br/>
+            KEYS_URL='https://raw.githubusercontent.com/myorg/keys/master/keys'<br/>
           </p>
           <h3 >Builder options</h3>
           <p>
-            The builder can be set with the --builder option for now there are only packer and coreos builders. i.e.
-          </p>
-          <p>
-            `--builder packer` This will build images using packer
-          </p>
-          <p>
-            `--builder coreos` This will download the official coreos images
+            The builder can be set with the --builder option for now there are only packer and coreos builders. i.e.<br/>
+            `--builder packer` This will build images using packer<br/>
+            `--builder coreos` This will download the official coreos images<br/>
           </p>
           <h3>
             OS options
           </h3>
           <p>
-            The OS to build can be set with  --target-os option
-          </p>
-          <p>
-            `--target-os ubuntu` This will build ubuntu images
-          </p>
-          <p>
-            `--target-os debian` This will build debian images
-          </p>
-          <p>
-            `--target-os fedora` This will build fedora images
-          </p>
-          <p>
-            `--target-os centos` This will build centos images
-          </p>
-          <p>
-            `--target-os coreos` This will build coreos images (* no packer build for this*)
+            The OS to build can be set with  --target-os option<br/>
+            `--target-os ubuntu` This will build ubuntu images<br/>
+            `--target-os debian` This will build debian images<br/>
+            `--target-os fedora` This will build fedora images<br/>
+            `--target-os centos` This will build centos images<br/>
+            `--target-os coreos` This will build coreos images (* no packer build for this*)<br/>
           </p>
           <h3>
-            Initializer specific options
+            Initializer specific builds
           </h3>
           <p>
             There are a few OS builds that are built specifically for some of the initializers.
-          </p>
-          <p>
             `--target-os kubeadm` This will build centos images
-            with the addition of getting the kube repos added and kubeadm etc installed
-          </p>
-          <p>
+            with the addition of getting the kube repos added and kubeadm etc installed<br/>
             `--target-os kubeadm2ha` This will build centos images
-            with the addition of prepping for the kubeadm2ha ansible playbook
-          </p>
-          <p>
+            with the addition of prepping for the kubeadm2ha ansible playbook<br/>
             `--target-os kubespray` This will build centos images
-            with the addition of prepping for the kubespray ansible playbook
-          </p>
-          <p>
+            with the addition of prepping for the kubespray ansible playbook<br/>
             `--target-os openshift` This will build centos images
-            with the addition of prepping for the openshift ansible playbook
+            with the addition of prepping for the openshift ansible playbook<br/>
           </p>
           <h3>
             Target build
           </h3>
           <p>
-            For the packer build you can specify alternate json files to use
-          </p>
-          <p>
+            For the packer build you can specify alternate json files to use<br/>
             `--target-build my-alternate.json` This must exist in `$KUBASH_DIR/pax/$target_os/my-alternate.json`
           </p>
           <p>
-            For the coreos option this sets the channel (stable,beta,alpha)
-          </p>
-          <p>
+            For the coreos option this sets the channel (stable,beta,alpha)<br/>
             `--target-build beta`
           </p>
           <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/build.md'>build documentation page</a>.</p>
@@ -103,10 +71,17 @@ class Main extends React.Component {
 
         <article id="provision" className={`${this.props.article === 'provision' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Provision</h2>
-          <p>kubash provision - provisions virtual machines by default using qemu/KVM.</p>
+          <p>kubash provision - provisions virtual machines by default using qemu/KVM
+            to then rebase the image built during the build step for your nodes.
+            The image is first hardlinked to a named image for your cluster
+            so that subsequent builds will not overwrite your running clusters base image.
+            Then that image is copied in parallel using rsync to all provisioning hosts.
+            Finally the machines are spun up, provisioned, and your ssh known_hosts and hosts.csv is repopulated.
+          </p>
           <AsciinemaSelf localpath='/provision.json'/>
-          <p>After which you will have 6 new VMs, 3 masters, and 3 nodes.  This can be altered by creating your own cluster yaml file. There is an <a href='https://github.com/kubash/kubash/blob/master/examples/example-cluster.yaml'>example file</a> in the repo.</p>
-          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/provision.md'>provision documentation page</a>.</p>
+          <p>After which you will have 6 new VMs, 3 masters, and 3 nodes.</p>
+          <p>This can be altered by creating your own cluster yaml file. There is an <a href='https://github.com/kubash/kubash/blob/master/examples/example-cluster.yaml'>example file.</a> in the repo.</p>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/provision.md'>provision documentation page.</a>.</p>
           {close}
         </article>
 
@@ -114,9 +89,12 @@ class Main extends React.Component {
           <h2 className="major">Init</h2>
           <p>kubash init - initialize kubernetes cluster by default using kubeadm.</p>
           <AsciinemaSelf localpath='/init.json'/>
-          <p>Optionally you can use alternative initializers
-            as well using the '--initializer' option (right now kubespray, openshift, kubeadm2ha are available).</p>
-          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/init.md'>init documentation page</a>.</p>
+          <p>Optionally there are alternative initializers you can try
+            using the '--initializer' option (right now kubespray, openshift, kubeadm2ha are available).</p>
+          <p> The default method was conceived as I gathered official documentation into simple shell scripts and it grew into it's current state quite organically.</p>
+          <p> One of the final resources that finally made the multimaster setup start working was this <a href='https://docs.google.com/document/d/1rEMFuHo3rBJfFapKBInjCqm2d7xGkXzh0FpFO0cRuqg'>google doc</a>.</p>
+          <p> Which is the same author of the kubeadm2ha ansible playbook used in that intializer above.</p>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/init.md'>init documentation page.</a>.</p>
           {close}
         </article>
 
