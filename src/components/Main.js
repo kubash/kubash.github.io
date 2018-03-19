@@ -112,7 +112,7 @@ class Main extends React.Component {
 
         <article id="init" className={`${this.props.article === 'init' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Init</h2>
-          <p>kubash init - initialize virtual machines by default using kubeadm.</p>
+          <p>kubash init - initialize kubernetes cluster by default using kubeadm.</p>
           <AsciinemaSelf localpath='/init.json'/>
           <p>Optionally you can use alternative initializers
             as well using the '--initializer' option (right now kubespray, openshift, kubeadm2ha are available).</p>
@@ -132,10 +132,70 @@ class Main extends React.Component {
             increment the verbosity up one.
           </p>
           <p>Helm can be used as well from the K8$ shell try 'helm search prometheus'.</p>
+          <p>Or by shorthand `h search prometheus`</p>
           <p>There are also many shortcuts for using kubectl directly from the K8$ shell.</p>
           <AsciinemaSelf localpath='/interactive.json'/>
-          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/interactive.md'>interactive documentation page</a>.</p>
           <p></p>
+          <p>K8$ help </p>
+          <p>commands:<br/>
+            help          - show this help<br/>
+            kh|khelp      - show the kubectl help<br/>
+            build         - build a base image<br/>
+            provision     - provision individual nodes<br/>
+            init          - initialize the cluster<br/>
+            reset         - reset the cluster with `kubeadm reset` on all hosts<br/>
+            decommission  - tear down the cluster and decommission nodes<br/>
+            show          - show the analyzed input of the hosts file<br/>
+            ping          - Perform ansible ping to all hosts<br/>
+            auto          - Full auto will provision and initialize all hosts<br/>
+            masters       - Perform initialization of masters<br/>
+            nodes         - Perform initialization of nodes<br/>
+            dotfiles      - Perform dotfiles auto configuration<br/>
+            grab          - Grab the .kube/config from the master<br/>
+            hosts         - Write ansible hosts file<br/>
+            copy          - copy the built images to the provisioning hosts<br/>
+            k *           - k commands will attempt to be passed to kubectl<br/>
+            h *           - h commands will attempt to be passed to helm<br/>
+            i.e.<br/>
+            get pods<br/>
+            get nodes<br/>
+            etc<br/>
+          </p>
+          <hr/>
+          <p>K8$ khelp </p>
+           <p>kubectl shorthand commands:
+            # Drop into an interactive terminal on a container<br/>
+            keti="kubectl exec -ti"<br/>
+            # Pod management.<br/>
+            kgp="kubectl get pods"<br/>
+            kgpa="kubectl get pods --all-namespaces"<br/>
+            klp="kubectl logs pods"<br/>
+            kep="kubectl edit pods"<br/>
+            kdp="kubectl describe pods"<br/>
+            kdelp="kubectl delete pods"<br/>
+            # Service management.<br/>
+            kgs="kubectl get svc"<br/>
+            kes="kubectl edit svc"<br/>
+            kds="kubectl describe svc"<br/>
+            kdels="kubectl delete svc"<br/>
+            # Secret management<br/>
+            kgsec="kubectl get secret"<br/>
+            kdsec="kubectl describe secret"<br/>
+            kdelsec="kubectl delete secret"<br/>
+            # Deployment management.<br/>
+            kgd="kubectl get deployment"<br/>
+            ked="kubectl edit deployment"<br/>
+            kdd="kubectl describe deployment"<br/>
+            kdeld="kubectl delete deployment"<br/>
+            ksd="kubectl scale deployment"<br/>
+            krsd="kubectl rollout status deployment"<br/>
+            # Rollout management.<br/>
+            kgrs="kubectl get rs"<br/>
+            krh="kubectl rollout history"<br/>
+            kru="kubectl rollout undo"<br/>
+          </p>
+          <hr/>
+          <p>For more information see the <a href='https://github.com/kubash/kubash/blob/master/docs/interactive.md'>interactive documentation page</a>.</p>
           {close}
         </article>
 

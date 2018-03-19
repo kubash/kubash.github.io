@@ -2,6 +2,10 @@ import React from 'react'
 
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
+    <p>
+      oneliner installer:<br />
+      curl -Ls git.io/kubash | bash
+    </p>
       <ul className="icons">
         <li>Issues, Feature Requests, and PRs on Github <a href="https://github.com/kubash/kubash" className="icon fa-github"><span className="label">GitHub</span></a></li>
       </ul>
