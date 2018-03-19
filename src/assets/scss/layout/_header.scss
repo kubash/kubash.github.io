@@ -47,6 +47,11 @@
 			}
 		}
 
+		div.logo {
+			font-size: 233%;
+			font-weight: bold;
+		}
+
 		.logo {
 			width: 5.5rem;
 			height: 5.5rem;
@@ -203,7 +208,7 @@
 
 				.icon {
 					&:before {
-						font-size: 1.75rem;
+            font-size: 1.75rem;
 					}
 				}
 			}

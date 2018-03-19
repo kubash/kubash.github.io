@@ -3,7 +3,7 @@ import React from 'react'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span>K8$</span>
+          <span>K8$</span>
         </div>
         <div className="content">
             <div className="inner">
