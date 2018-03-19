@@ -8,10 +8,10 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Kubash</h1>
-                <p>An interactive shell for your clusters <br />
+                <p>An interactive shell for your clusters. <br />
                   Automating Building the base images,<br />
                   Provisioning the VMs,<br />
-                  and Initializing the cluster using kubeadm</p>
+                  and Initializing the cluster using kubeadm.</p>
             </div>
         </div>
         <nav>
