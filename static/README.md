@@ -1,5 +1,6 @@
 # [Kubash.org](https://kubash.org/)
-[![Build Status](https://travis-ci.org/kubash/kubash.github.io.svg?branch=gatsby)](https://travis-ci.org/kubash/kubash.github.io)
+Gatsby [![Build Status](https://travis-ci.org/kubash/kubash.github.io.svg?branch=gatsby)](https://travis-ci.org/kubash/kubash.github.io)
+ Master [![Build Status](https://travis-ci.org/kubash/kubash.github.io.svg?branch=master)](https://travis-ci.org/kubash/kubash.github.io)
 
 This was built using Gatsby and the htmlup conversion of dimension for
 [Kubash.org](https://kubash.org/)
