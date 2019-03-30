@@ -6,6 +6,12 @@ const Footer = (props) => (
       oneliner installer:<br />
       curl -Ls git.io/kubash | bash
     </p>
+    <p>
+      Warning: If I have to warn you about the dangers of curling something directly into bash, you may not be a competent system administrator! It is recommended that you run the above on a test system to test out kubash before doing anything in production.
+    </p>
+    <p>
+      The above <a href='https://git.io/kubash'>git.io/kubash</a> redirects to the raw version of <a href='https://github.com/kubash/kubash/blob/master/bootstrap'>this file</a>.
+    </p>
       <ul className="icons">
         <li>Issues, Feature Requests, and PRs on Github <a href="https://github.com/kubash/kubash" className="icon fa-github"><span className="label">GitHub</span></a></li>
       </ul>
