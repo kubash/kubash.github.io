@@ -1,0 +1,15 @@
+matrix:
+  include:
+  - os: linux
+    dist: trusty
+    sudo: false
+    env:
+    - builder=travis
+script:
+- ls -lh index.html
+deploy:
+  - provider: surge
+    project: ./
+    domain: kubash.org
+    on:
+      branch: master

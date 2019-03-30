@@ -1,0 +1,1094 @@
+{
+  "duration": 23.612676,
+  "title": "Kubash interactive",
+  "stdout": [
+    [
+      1.0,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r\u001bk~/.kubash\u001b\\"
+    ],
+    [
+      0.000366,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~/.kubash% \u001b[K"
+    ],
+    [
+      3.7e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.0,
+      "k"
+    ],
+    [
+      0.223085,
+      "\bku"
+    ],
+    [
+      0.536243,
+      "b"
+    ],
+    [
+      0.160149,
+      "a"
+    ],
+    [
+      0.079284,
+      "s"
+    ],
+    [
+      0.072478,
+      "h"
+    ],
+    [
+      0.209699,
+      "\u001b[?1l\u001b>\r\r\n\u001bkkubash\u001b\\"
+    ],
+    [
+      0.059283,
+      "-------------------------------------------------------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      0.000733,
+      "Interactive Kubash Shell Enter 'help' for help, 'kh' for kubectl help or 'quit' to quit\r\nworking with the default kubash cluster, or set with 'clustername'\r\n"
+    ],
+    [
+      0.043985,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      0.630369,
+      "\r\r\u001b[K\rK8$ k"
+    ],
+    [
+      0.207623,
+      "h"
+    ],
+    [
+      0.152047,
+      "\b\b"
+    ],
+    [
+      5.7e-05,
+      "\u001b[K"
+    ],
+    [
+      0.001115,
+      "kh\r\r\n"
+    ],
+    [
+      0.01532,
+      "-------------------------------------------------------------------------------------------------------------------------------\r\n"
+    ],
+    [
+      0.000783,
+      "kubectl shorthand commands:\r\n  # Drop into an interactive terminal on a container\r\n  keti=\"kubectl exec -ti\"\r\n  # Pod management.\r\n  kgp=\"kubectl get pods\"\r\n  kgpa=\"kubectl get pods --all-namespaces\"\r\n  klp=\"kubectl logs pods\"\r\n  kep=\"kubectl edit pods\"\r\n  kdp=\"kubectl describe pods\"\r\n  kdelp=\"kubectl delete pods\"\r\n  # Service management.\r\n  kgs=\"kubectl get svc\"\r\n  kes=\"kubectl edit svc\"\r\n  kds=\"kubectl describe svc\"\r\n  kdels=\"kubectl delete svc\"\r\n  # Secret management\r\n  kgsec=\"kubectl get secret\"\r\n  kdsec=\"kubectl describe secret\"\r\n  kdelsec=\"kubectl delete secret\"\r\n  # Deployment management.\r\n  kgd=\"kubectl get deployment\"\r\n  ked=\"kubectl edit deployment\"\r\n  kdd=\"kubectl describe deployment\"\r\n  kdeld=\"kubectl delete deployment\"\r\n  ksd=\"kubectl scale deployment\"\r\n  krsd=\"kubectl rollout status deployment\"\r\n  # Rollout management.\r\n  kgrs=\"kubectl get rs\"\r\n  krh=\"kubectl rollout history\"\r\n  kru=\"kubectl rollout undo\"\r\n"
+    ],
+    [
+      0.044936,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      1.0,
+      "\r\r\u001b[K"
+    ],
+    [
+      5.8e-05,
+      "\r"
+    ],
+    [
+      0.000291,
+      "K8$ k"
+    ],
+    [
+      0.2314,
+      " "
+    ],
+    [
+      0.224175,
+      "g"
+    ],
+    [
+      0.128175,
+      "e"
+    ],
+    [
+      0.056025,
+      "t"
+    ],
+    [
+      0.087766,
+      " "
+    ],
+    [
+      0.160218,
+      "n"
+    ],
+    [
+      0.127964,
+      "o"
+    ],
+    [
+      0.039732,
+      "d"
+    ],
+    [
+      0.152367,
+      "e"
+    ],
+    [
+      0.111658,
+      "s"
+    ],
+    [
+      0.3599,
+      "\r\u001b[C\u001b[C\u001b[C\u001b[C"
+    ],
+    [
+      5.4e-05,
+      "\u001b[K"
+    ],
+    [
+      0.001277,
+      "k get nodes\r\r\n"
+    ],
+    [
+      0.679457,
+      "NAME       STATUS    ROLES     AGE       VERSION\r\n"
+    ],
+    [
+      9.3e-05,
+      "master01   Ready     master    43m       v1.9.3\r\nmaster02   Ready     master    41m"
+    ],
+    [
+      9.5e-05,
+      "       v1.9.3\r\nmaster03   Ready     master    41m       v1.9.3\r\nnode01     "
+    ],
+    [
+      0.000135,
+      "Ready     node      41m       v1.9.3\r\nnode02     Ready     node      41m       v1.9.3\r\nnode03     Ready     "
+    ],
+    [
+      0.000234,
+      "node      41m       v1.9.3\r\n"
+    ],
+    [
+      0.00399,
+      "\r\n"
+    ],
+    [
+      0.044637,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      0.694615,
+      "\r\r\u001b[K\rK8$ k"
+    ],
+    [
+      0.111739,
+      "g"
+    ],
+    [
+      0.199866,
+      "p"
+    ],
+    [
+      0.99179,
+      "\b\b\b\u001b[K"
+    ],
+    [
+      0.00112,
+      "kgp\r\r\n"
+    ],
+    [
+      1.0,
+      "NAME                                                             READY     STATUS              RESTARTS   AGE\r\njenkins-6bc67f99d7-jxbdk                                        "
+    ],
+    [
+      7.8e-05,
+      " 0/1       ContainerCreating   0          5m\r\njupyter-server-68d4ddc48-5jtb4                                   0/1       ContainerCreating   0          6m\r\n"
+    ],
+    [
+      6.6e-05,
+      "maya-apiserver-5b48756968-jbs5c                                  1/1       Running        "
+    ],
+    [
+      7.5e-05,
+      "     0          6m\r\nmongo-0                                                "
+    ],
+    [
+      9.5e-05,
+      "          2/2       Running             0          5m\r\nmongo-1                                        "
+    ],
+    [
+      8.9e-05,
+      "                  0/2       ContainerCreating   0          1m\r\nopenebs-provisioner-7b59878f76-wpht9                "
+    ],
+    [
+      7e-05,
+      "             1/1       Running             0          6m\r\npercona        "
+    ],
+    [
+      6.8e-05,
+      "                                                  0/1       ContainerCreating   0          "
+    ],
+    [
+      7.3e-05,
+      "6m\r\npgset-0                                                          0/1       ContainerCreating"
+    ],
+    [
+      6.5e-05,
+      "   0          6m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-ctrl-66545b4ff6-wbns2   2/2       Running        "
+    ],
+    [
+      5.2e-05,
+      "     0          1m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-rep-6ff559fd95-drbwd    1/1       Running             0"
+    ],
+    [
+      4.8e-05,
+      "          1m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-rep-6ff559fd95-nmwfl    1/1       Running        "
+    ],
+    [
+      5.2e-05,
+      "     0          1m\r\npvc-c47d10d4-2adc-11e8-9346-525400e28a11-ctrl-796ff6f4f4-xdqhd   2/2"
+    ],
+    [
+      4.9e-05,
+      "       Running             0          6m\r\npvc-c47d10d4-2adc-11e8-9346-525400e28a11-rep-66d9cb9fbd-5pn4p    "
+    ],
+    [
+      4.9e-05,
+      "1/1       Running             0          6m\r\n"
+    ],
+    [
+      4.7e-05,
+      "pvc-c47d10d4-2adc-11e8-9346-525400e28a11-rep-66d9cb9fbd-f4vsn    1/1       Running             0        "
+    ],
+    [
+      3.8e-05,
+      "  6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-ctrl-79659977dc-2q9nt   2/2       Running"
+    ],
+    [
+      4.8e-05,
+      "             0          6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-rep-795fc44cd9-d6wls    "
+    ],
+    [
+      6.2e-05,
+      "1/1       Running             0          6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-rep-795fc44cd9-z85zw    "
+    ],
+    [
+      4e-05,
+      "1/1       Running             0          "
+    ],
+    [
+      5.7e-05,
+      "6m\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-ctrl-b5bddf48-2xkvz     2/2       Running             0"
+    ],
+    [
+      6.4e-05,
+      "          6m\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-rep-7699c7f4c-n5fs5     1/1       Running             0"
+    ],
+    [
+      8.3e-05,
+      "          6m\r\npvc-c77e64ef-2adc-11e8-9346-525400e28a11-ctrl-56d59cb6b-xnml7    2/2       Running"
+    ],
+    [
+      4.1e-05,
+      "             0          6m\r\npvc-c77e64ef-2adc-11e8-9346-525400e28a11-rep-84d668679f-ftwwf"
+    ],
+    [
+      4.8e-05,
+      "    1/1       Running        "
+    ],
+    [
+      3.9e-05,
+      "     0          6m\r\npvc-c77e64ef-2adc-11e8-9346-525400e28a11-rep-84d668679f-n2n8p    "
+    ],
+    [
+      6.9e-05,
+      "1/1       Running             0          6m"
+    ],
+    [
+      6.6e-05,
+      "\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-ctrl-686788cf59-87b66   2/2       Running             0          5m\r\n"
+    ],
+    [
+      4.9e-05,
+      "pvc-cb8db537-2adc-11e8-9346-525400e28a11-rep-5b585884cc-kqrs2    1/1       Running             0          "
+    ],
+    [
+      4.7e-05,
+      "5m\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-rep-5b585884cc-t2lcn    1/1       Running             0"
+    ],
+    [
+      6.4e-05,
+      "          5m\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-ctrl-5fd5895764-jq79q   2/2       Running             "
+    ],
+    [
+      6.4e-05,
+      "0          5m\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-rep-8697bb4d46-29zmc    1/1       Running             "
+    ],
+    [
+      4e-05,
+      "0          5m\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-rep-8697bb4d46-49rlv    1/1       "
+    ],
+    [
+      4.9e-05,
+      "Running             0          5m\r\nrabbitmq-0"
+    ],
+    [
+      4.7e-05,
+      "                                                       0/1       ContainerCreating"
+    ],
+    [
+      4.2e-05,
+      "   0          6m\r\n"
+    ],
+    [
+      0.004764,
+      "\r\n"
+    ],
+    [
+      0.044484,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      0.965343,
+      "\r\r\u001b[K\r"
+    ],
+    [
+      0.00028,
+      "K8$ k"
+    ],
+    [
+      0.10345,
+      "g"
+    ],
+    [
+      0.136167,
+      "p"
+    ],
+    [
+      0.344223,
+      "a"
+    ],
+    [
+      0.383296,
+      "\b\b\b\b"
+    ],
+    [
+      5.6e-05,
+      "\u001b[K"
+    ],
+    [
+      0.001223,
+      "kgpa\r\r\n"
+    ],
+    [
+      0.801559,
+      "NAMESPACE     NAME                                                             READY     STATUS              RESTARTS   AGE\r\ndefault       jenkins-6bc67f99d7-jxbdk                        "
+    ],
+    [
+      6.1e-05,
+      "                 0/1       ContainerCreating   0          5m\r\ndefault       jupyter-server-68d4ddc48-5jtb4                                   0/1       ContainerCreating   0          6m\r\ndefault       "
+    ],
+    [
+      8.5e-05,
+      "maya-apiserver-5b48756968-jbs5c                                  1/1       Running             0          "
+    ],
+    [
+      4.2e-05,
+      "6m\r\ndefault       mongo-0                                                        "
+    ],
+    [
+      5.8e-05,
+      "  2/2       Running             0          6m\r\ndefault"
+    ],
+    [
+      3.9e-05,
+      "       mongo-1                                                          0/2"
+    ],
+    [
+      5.9e-05,
+      "       ContainerCreating   0          1m\r\ndefault       "
+    ],
+    [
+      5.8e-05,
+      "openebs-provisioner-7b59878f76-wpht9                             1/1       Running             0          6m"
+    ],
+    [
+      0.000122,
+      "\r\ndefault       percona                                                          "
+    ],
+    [
+      6.3e-05,
+      "0/1       ContainerCreating   0          6m\r\ndefault       pgset-0                                                          0/1       ContainerCreating   0          6m"
+    ],
+    [
+      6.2e-05,
+      "\r\ndefault       pvc-6e43097b-2add-11e8-9346-525400e28a11-ctrl-66545b4ff6-wbns2   2/2       Running             0          "
+    ],
+    [
+      4.3e-05,
+      "1m\r\ndefault       pvc-6e43097b-2add-11e8-9346-525400e28a11-rep-6ff559fd95-drbwd    1/1       Running             "
+    ],
+    [
+      3.9e-05,
+      "0          1m\r\ndefault       pvc-6e43097b-2add-11e8-9346-525400e28a11-rep-6ff559fd95-nmwfl    1/1"
+    ],
+    [
+      4.7e-05,
+      "       Running             0          1m\r\ndefault       "
+    ],
+    [
+      4.7e-05,
+      "pvc-c47d10d4-2adc-11e8-9346-525400e28a11-ctrl-796ff6f4f4-xdqhd   2/2       Running             "
+    ],
+    [
+      4.8e-05,
+      "0          6m\r\ndefault       pvc-c47d10d4-2adc-11e8-9346-525400e28a11-rep-66d9cb9fbd-5pn4p    1/1       Running"
+    ],
+    [
+      6.7e-05,
+      "             0          6m\r\ndefault       pvc-c47d10d4-2adc-11e8-9346-525400e28a11-rep-66d9cb9fbd-f4vsn    1/1       "
+    ],
+    [
+      6e-05,
+      "Running             0          6m\r\ndefault       pvc-c661e54d-2adc-11e8-9346-525400e28a11-ctrl-79659977dc-2q9nt   2/2       "
+    ],
+    [
+      4.9e-05,
+      "Running             0          6m\r\ndefault       pvc-c661e54d-2adc-11e8-9346-525400e28a11-rep-795fc44cd9-d6wls    "
+    ],
+    [
+      4.5e-05,
+      "1/1       Running             0          6m"
+    ],
+    [
+      5.3e-05,
+      "\r\ndefault       pvc-c661e54d-2adc-11e8-9346-525400e28a11-rep-795fc44cd9-z85zw    1/1       Running             0        "
+    ],
+    [
+      4.9e-05,
+      "  6m\r\ndefault       pvc-c71b3263-2adc-11e8-9346-525400e28a11-ctrl-b5bddf48-2xkvz     2/2       Running             "
+    ],
+    [
+      5.2e-05,
+      "0          6m\r\ndefault       pvc-c71b3263-2adc-11e8-9346-525400e28a11-rep-7699c7f4c-n5fs5     1/1       Running"
+    ],
+    [
+      4e-05,
+      "             0          6m\r\ndefault       pvc-c77e64ef-2adc-11e8-9346-525400e28a11-ctrl-56d59cb6b-xnml7"
+    ],
+    [
+      5.6e-05,
+      "    2/2       Running             0          6m\r\n"
+    ],
+    [
+      4.8e-05,
+      "default       pvc-c77e64ef-2adc-11e8-9346-525400e28a11-rep-84d668679f-ftwwf    1/1       Running             0        "
+    ],
+    [
+      6.5e-05,
+      "  6m\r\ndefault       pvc-c77e64ef-2adc-11e8-9346-525400e28a11-rep-84d668679f-n2n8p    1/1       Running"
+    ],
+    [
+      5.2e-05,
+      "             0          6m\r\ndefault       pvc-cb8db537-2adc-11e8-9346-525400e28a11-ctrl-686788cf59-87b66   2/2       Running        "
+    ],
+    [
+      5.8e-05,
+      "     0          5m\r\ndefault       pvc-cb8db537-2adc-11e8-9346-525400e28a11-rep-5b585884cc-kqrs2    1/1       "
+    ],
+    [
+      4.9e-05,
+      "Running             0          5m\r\ndefault       pvc-cb8db537-2adc-11e8-9346-525400e28a11-rep-5b585884cc-t2lcn    "
+    ],
+    [
+      7.1e-05,
+      "1/1       Running             0          5m\r\ndefault       pvc-cc11a2f1-2adc-11e8-9346-525400e28a11-ctrl-5fd5895764-jq79q   "
+    ],
+    [
+      6.9e-05,
+      "2/2       Running             0          5m\r\ndefault       pvc-cc11a2f1-2adc-11e8-9346-525400e28a11-rep-8697bb4d46-29zmc    1/1       "
+    ],
+    [
+      0.000447,
+      "Running             0          5m\r\ndefault       pvc-cc11a2f1-2adc-11e8-9346-525400e28a11-rep-8697bb4d46-49rlv    1/1       Running             0          5m\r\ndefault       rabbitmq-0                                                       0/1       ContainerCreating   0          6m\r\nkube-system   kube-apiserver-master01                                          1/1       Running             0          42m\r\nkube-system   kube-apiserver-master02                                          1/1       Running             0          41m\r\nkube-system   kube-apiserver-master03                                          1/1       Running             0          41m\r\nkube-system   kube-controller-manager-master01                                 1/1       Running             1          42m"
+    ],
+    [
+      6.2e-05,
+      "\r\nkube-system   kube-controller-manager-master02                                 1/1       Running             0          41m"
+    ],
+    [
+      6e-05,
+      "\r\nkube-system   kube-controller-manager-master03                                 1/1       Running        "
+    ],
+    [
+      6.6e-05,
+      "     0          41m\r\nkube-system   kube-dns-6f4fd4bdf-57cml                                        "
+    ],
+    [
+      7.1e-05,
+      " 3/3       Running             0          43m\r\nkube-system   "
+    ],
+    [
+      5.5e-05,
+      "kube-flannel-ds-k5kgb                                            1/1       Running             0          "
+    ],
+    [
+      4.8e-05,
+      "41m\r\nkube-system   kube-flannel-ds-nd7rw                                            1/1"
+    ],
+    [
+      5.4e-05,
+      "       Running             1          41m\r\nkube-system   kube-flannel-ds-nm2xf"
+    ],
+    [
+      5.3e-05,
+      "                                            1/1       Running             1"
+    ],
+    [
+      4.6e-05,
+      "          41m\r\nkube-system   kube-flannel-ds-tjn8m                        "
+    ],
+    [
+      5e-05,
+      "                    1/1       Running             0          "
+    ],
+    [
+      5.3e-05,
+      "41m\r\nkube-system   kube-flannel-ds-vwvf5                                        "
+    ],
+    [
+      5.6e-05,
+      "    1/1       Running             1          41m\r\nkube-system   "
+    ],
+    [
+      6.5e-05,
+      "kube-flannel-ds-whztv                                            1/1       Running             1        "
+    ],
+    [
+      4.9e-05,
+      "  41m\r\nkube-system   kube-proxy-4dq5q                                                "
+    ],
+    [
+      4.7e-05,
+      " 1/1       Running             0          41m"
+    ],
+    [
+      3.7e-05,
+      "\r\nkube-system   kube-proxy-6nlbr                                                "
+    ],
+    [
+      5.6e-05,
+      " 1/1       Running             0          41m\r\nkube-system"
+    ],
+    [
+      4.9e-05,
+      "   kube-proxy-994bt                                                 1/1       "
+    ],
+    [
+      4.7e-05,
+      "Running             0          41m\r\nkube-system   kube-proxy-c75m7"
+    ],
+    [
+      6.9e-05,
+      "                                                 1/1       Running             0          "
+    ],
+    [
+      4.4e-05,
+      "43m\r\nkube-system   kube-proxy-rq4r8                                                 "
+    ],
+    [
+      4.9e-05,
+      "1/1       Running             0          41m\r\nkube-system   "
+    ],
+    [
+      6.6e-05,
+      "kube-proxy-sbqpx                                                 1/1       Running        "
+    ],
+    [
+      5.5e-05,
+      "     0          41m\r\nkube-system   kube-scheduler-master01                                "
+    ],
+    [
+      5.7e-05,
+      "          1/1       Running             1          42m\r\n"
+    ],
+    [
+      4.8e-05,
+      "kube-system   kube-scheduler-master02                                          1/1       Running"
+    ],
+    [
+      5.3e-05,
+      "             0          41m\r\nkube-system   kube-scheduler-master03                "
+    ],
+    [
+      5.5e-05,
+      "                          1/1       Running             0        "
+    ],
+    [
+      4.8e-05,
+      "  41m\r\n"
+    ],
+    [
+      0.005739,
+      "\r\n"
+    ],
+    [
+      0.044318,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      0.879654,
+      "\r\r\u001b[K\rK8$ k"
+    ],
+    [
+      0.160392,
+      "g"
+    ],
+    [
+      0.175634,
+      "s"
+    ],
+    [
+      0.687806,
+      "\b\b\b\u001b[K"
+    ],
+    [
+      0.001186,
+      "kgs\r\r\n"
+    ],
+    [
+      0.489785,
+      "NAME                                                TYPE        CLUSTER-IP"
+    ],
+    [
+      4.2e-05,
+      "       EXTERNAL-IP   PORT(S)                       AGE\r\njenkins-svc"
+    ],
+    [
+      3.2e-05,
+      "                                "
+    ],
+    [
+      2.7e-05,
+      "         NodePort    10.108.196.6     "
+    ],
+    [
+      2.5e-05,
+      "<none>        80:32447/TCP                "
+    ],
+    [
+      0.00017,
+      "  5m\r\njupyter-service                                     NodePort    10.106.183.10    <none>        8888:32424/TCP                6m\r\n"
+    ],
+    [
+      0.000108,
+      "kubernetes                                          ClusterIP   10.96.0.1        <none>        443/TCP                       43m\r\nmaya-apiserver-service"
+    ],
+    [
+      0.000104,
+      "                              ClusterIP   10.109.198.158   <none>        5656/TCP                      6m\r\nmongo        "
+    ],
+    [
+      0.000112,
+      "                                       ClusterIP   None             <none>        27017/TCP                     6m\r\npgset        "
+    ],
+    [
+      9.7e-05,
+      "                                       ClusterIP   None             <none>        5432/TCP                      6m\r\npgset-primary"
+    ],
+    [
+      4e-05,
+      "                                       ClusterIP   10.97.16.149     <none>        "
+    ],
+    [
+      3e-05,
+      "5432/TCP                      6m\r\n"
+    ],
+    [
+      2.2e-05,
+      "pgset-replica                                "
+    ],
+    [
+      2.1e-05,
+      "       ClusterIP   10.96.46.241     "
+    ],
+    [
+      0.000109,
+      "<none>        5432/TCP                      6m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-ctrl-svc   ClusterIP   10.106.5.95      "
+    ],
+    [
+      3.3e-05,
+      "<none>        3260/TCP,9501/TCP             1m\r\npvc-c47d10d4-2adc-11e8-9346-525400e28a11-ctrl-svc"
+    ],
+    [
+      9e-05,
+      "   ClusterIP   10.104.13.58     <none>        3260/TCP,9501/TCP             "
+    ],
+    [
+      4.1e-05,
+      "6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-ctrl-svc   ClusterIP   10.106.44.128    <none>        3260/TCP,9501/TCP"
+    ],
+    [
+      7.3e-05,
+      "             6m\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-ctrl-svc   ClusterIP   "
+    ],
+    [
+      7.1e-05,
+      "10.107.252.106   <none>        3260/TCP,9501/TCP             6m\r\npvc-c77e64ef-2adc-11e8-9346-525400e28a11-ctrl-svc   ClusterIP   10.100.174.47"
+    ],
+    [
+      0.000133,
+      "    <none>        3260/TCP,9501/TCP             6m\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-ctrl-svc   ClusterIP   10.110.181.79    <none>        3260/TCP,9501/TCP             "
+    ],
+    [
+      0.000121,
+      "5m\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-ctrl-svc   ClusterIP   10.111.146.234   <none>        3260/TCP,9501/TCP             5m"
+    ],
+    [
+      8.1e-05,
+      "\r\nrabbitmq                                            "
+    ],
+    [
+      7.3e-05,
+      "ClusterIP   None             <none>        5672/TCP,4369/TCP,25672/TCP   "
+    ],
+    [
+      9.3e-05,
+      "6m\r\nrabbitmq-management                                 NodePort    10.111.140.6     <none>"
+    ],
+    [
+      0.000116,
+      "        15672:31935/TCP               6m\r\n"
+    ],
+    [
+      0.003488,
+      "\r\n"
+    ],
+    [
+      0.04407,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      1.0,
+      "\r\r\u001b[K\rK8$ k"
+    ],
+    [
+      0.151898,
+      "g"
+    ],
+    [
+      0.175949,
+      "d"
+    ],
+    [
+      0.192046,
+      "\b\b\b\u001b[K"
+    ],
+    [
+      0.001134,
+      "kgd\r\r\n"
+    ],
+    [
+      0.873968,
+      "NAME                                            DESIRED   CURRENT   UP-TO-DATE   AVAILABLE   AGE\r\njenkins                                         "
+    ],
+    [
+      9.5e-05,
+      "1         1         1            0           6m\r\njupyter-server                                  1         "
+    ],
+    [
+      0.000132,
+      "1         1            0           6m\r\nmaya-apiserver                                  1         1         1        "
+    ],
+    [
+      6e-05,
+      "    1           6m\r\nopenebs-provisioner                             1         1         1            "
+    ],
+    [
+      9.9e-05,
+      "1           6m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-ctrl   1         1         1            "
+    ],
+    [
+      4.8e-05,
+      "1           1m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-rep    2         2         2"
+    ],
+    [
+      2.9e-05,
+      "            2           1m\r\n"
+    ],
+    [
+      2.7e-05,
+      "pvc-c47d10d4-2adc-11e8-9346-525400e28a11-ctrl   1         "
+    ],
+    [
+      0.000154,
+      "1         1            1           6m\r\npvc-c47d10d4-2adc-11e8-9346-525400e28a11-rep    2         2         2            2        "
+    ],
+    [
+      9.9e-05,
+      "   6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-ctrl   1         1         1            1        "
+    ],
+    [
+      0.000102,
+      "   6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-rep    2         2         2            2           6m\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-ctrl"
+    ],
+    [
+      0.000103,
+      "   1         1         1            1           6m\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-rep    1         1"
+    ],
+    [
+      3.7e-05,
+      "         1            1           6m\r\n"
+    ],
+    [
+      0.000105,
+      "pvc-c77e64ef-2adc-11e8-9346-525400e28a11-ctrl   1         1         1            1           6m\r\n"
+    ],
+    [
+      3.2e-05,
+      "pvc-c77e64ef-2adc-11e8-9346-525400e28a11-rep    2         2         "
+    ],
+    [
+      2e-05,
+      "2            2        "
+    ],
+    [
+      8.4e-05,
+      "   6m\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-ctrl   1         1         1        "
+    ],
+    [
+      4.5e-05,
+      "    1           6m\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-rep    "
+    ],
+    [
+      8.1e-05,
+      "2         2         2            2           "
+    ],
+    [
+      0.000106,
+      "6m\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-ctrl   1         1         1            1           6m\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-rep    2         "
+    ],
+    [
+      0.000276,
+      "2         2            2           6m\r\n"
+    ],
+    [
+      0.004326,
+      "\r\n"
+    ],
+    [
+      0.043823,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      0.618864,
+      "\r\r\u001b"
+    ],
+    [
+      2.6e-05,
+      "[K\r"
+    ],
+    [
+      0.000156,
+      "K8$ "
+    ],
+    [
+      8.8e-05,
+      "k"
+    ],
+    [
+      0.112221,
+      "g"
+    ],
+    [
+      0.463907,
+      "r"
+    ],
+    [
+      0.16801,
+      "s"
+    ],
+    [
+      0.23164,
+      "\b\b\b\b"
+    ],
+    [
+      4.7e-05,
+      "\u001b[K"
+    ],
+    [
+      0.00122,
+      "kgrs\r\r\n"
+    ],
+    [
+      0.857201,
+      "NAME                                                       DESIRED   CURRENT   READY     "
+    ],
+    [
+      0.000149,
+      "AGE\r\njenkins-6bc67f99d7                                         1         1         1         6m\r\njupyter-server-68d4ddc48                                "
+    ],
+    [
+      9.2e-05,
+      "   1         1         0         6m\r\nmaya-apiserver-5b48756968                "
+    ],
+    [
+      4.2e-05,
+      "                  1         1         "
+    ],
+    [
+      5.6e-05,
+      "1         6m\r\nopenebs-provisioner-7b59878f76                "
+    ],
+    [
+      0.000101,
+      "             1         1         1         6m"
+    ],
+    [
+      4.6e-05,
+      "\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-ctrl-66545b4ff6   1         1        "
+    ],
+    [
+      3.8e-05,
+      " 1         1m\r\npvc-6e43097b-2add-11e8-9346-525400e28a11-rep-6ff559fd95"
+    ],
+    [
+      3.6e-05,
+      "    2         2        "
+    ],
+    [
+      3.7e-05,
+      " 2         1m\r\n"
+    ],
+    [
+      3.6e-05,
+      "pvc-c47d10d4-2adc-11e8-9346-525400e28a11-ctrl-796ff6f4f4   1         1"
+    ],
+    [
+      3.5e-05,
+      "         1         6m"
+    ],
+    [
+      5.7e-05,
+      "\r\npvc-c47d10d4-2adc-11e8-9346-525400e28a11-rep-66d9cb9fbd    2         2"
+    ],
+    [
+      0.000104,
+      "         2         6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-ctrl-79659977dc   1        "
+    ],
+    [
+      6.2e-05,
+      " 1         1         6m\r\npvc-c661e54d-2adc-11e8-9346-525400e28a11-rep-795fc44cd9    2         "
+    ],
+    [
+      3.7e-05,
+      "2         2         6m"
+    ],
+    [
+      3.4e-05,
+      "\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-ctrl-b5bddf48     1         "
+    ],
+    [
+      5.6e-05,
+      "1         1         "
+    ],
+    [
+      3.9e-05,
+      "6m\r\npvc-c71b3263-2adc-11e8-9346-525400e28a11-rep-7699c7f4c     1         "
+    ],
+    [
+      4.8e-05,
+      "1         1         "
+    ],
+    [
+      3.6e-05,
+      "6m\r\npvc-c77e64ef-2adc-11e8-9346-525400e28a11-ctrl-56d59cb6b    1         1"
+    ],
+    [
+      3.3e-05,
+      "         1         6m"
+    ],
+    [
+      0.000176,
+      "\r\npvc-c77e64ef-2adc-11e8-9346-525400e28a11-rep-84d668679f    2         2         "
+    ],
+    [
+      7.9e-05,
+      "2         6m\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-ctrl-686788cf59   1         1         1        "
+    ],
+    [
+      4e-05,
+      " 6m\r\npvc-cb8db537-2adc-11e8-9346-525400e28a11-rep-5b585884cc    2        "
+    ],
+    [
+      4.8e-05,
+      " 2         2         6m"
+    ],
+    [
+      3.3e-05,
+      "\r\npvc-cc11a2f1-2adc-11e8-9346-525400e28a11-ctrl-5fd5895764   1         "
+    ],
+    [
+      5.5e-05,
+      "1         1         6m\r\n"
+    ],
+    [
+      4.8e-05,
+      "pvc-cc11a2f1-2adc-11e8-9346-525400e28a11-rep-8697bb4d46    2         2        "
+    ],
+    [
+      3.7e-05,
+      " 2         6m\r\n"
+    ],
+    [
+      0.004995,
+      "\r\n"
+    ],
+    [
+      0.04467,
+      "\r\r\u001b[K\rK8$ "
+    ],
+    [
+      1.0,
+      "\r\r\u001b[K\rK8$ q"
+    ],
+    [
+      0.071223,
+      "u"
+    ],
+    [
+      0.07992,
+      "i"
+    ],
+    [
+      0.136327,
+      "t"
+    ],
+    [
+      0.208068,
+      "\b\b\b\b\u001b[K"
+    ],
+    [
+      0.001139,
+      "quit\r\r\n"
+    ],
+    [
+      0.015033,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r\u001bk~/.kubash\u001b\\\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~/.kubash% \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      1.0,
+      "\r\r\n"
+    ]
+  ],
+  "version": 1,
+  "env": {
+    "SHELL": "/bin/zsh",
+    "TERM": "screen"
+  },
+  "height": 34,
+  "command": null,
+  "width": 127
+}

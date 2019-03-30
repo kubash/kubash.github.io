@@ -1,0 +1,530 @@
+{
+  "version": 1,
+  "title": "Kubash provision",
+  "width": 127,
+  "stdout": [
+    [
+      1.0,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r"
+    ],
+    [
+      7.4e-05,
+      "\u001bk~/.kubash\u001b\\"
+    ],
+    [
+      0.000389,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~/.kubash% \u001b[K"
+    ],
+    [
+      5e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.713875,
+      "k"
+    ],
+    [
+      0.29527,
+      "\bku"
+    ],
+    [
+      0.088089,
+      "b"
+    ],
+    [
+      0.176191,
+      "a"
+    ],
+    [
+      0.095981,
+      "s"
+    ],
+    [
+      0.207841,
+      "h"
+    ],
+    [
+      0.23179,
+      " "
+    ],
+    [
+      0.224175,
+      "p"
+    ],
+    [
+      0.183817,
+      "r"
+    ],
+    [
+      0.048016,
+      "o"
+    ],
+    [
+      0.368115,
+      "v"
+    ],
+    [
+      0.111925,
+      "i"
+    ],
+    [
+      0.175933,
+      "s"
+    ],
+    [
+      0.087995,
+      "i"
+    ],
+    [
+      0.048,
+      "o"
+    ],
+    [
+      0.064037,
+      "n"
+    ],
+    [
+      0.232355,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      4.9e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000963,
+      "\u001bkkubash\u001b\\"
+    ],
+    [
+      0.348052,
+      "Formatting '/var/lib/libvirt/images/default-k8s-master01.qcow2', fmt=qcow2 size=68719476736 backing_file='/var/lib/libvirt/images/default-k8s-kubash.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off \r\n"
+    ],
+    [
+      0.834663,
+      "\r\nStarting install...\r\n"
+    ],
+    [
+      0.663628,
+      "Domain creation completed.\r\n"
+    ],
+    [
+      0.204988,
+      "Formatting '/var/lib/libvirt/images/default-k8s-master02.qcow2', fmt=qcow2 size=68719476736 backing_file='/var/lib/libvirt/images/default-k8s-kubash.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off \r\n"
+    ],
+    [
+      0.808373,
+      "\r\nStarting install...\r\n"
+    ],
+    [
+      0.659688,
+      "Domain creation completed.\r\n"
+    ],
+    [
+      0.181601,
+      "Formatting '/var/lib/libvirt/images/default-k8s-master03.qcow2', fmt=qcow2 size=68719476736 backing_file='/var/lib/libvirt/images/default-k8s-kubash.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off \r\n"
+    ],
+    [
+      0.754414,
+      "\r\nStarting install...\r\n"
+    ],
+    [
+      0.689486,
+      "Domain creation completed.\r\n"
+    ],
+    [
+      0.174868,
+      "Formatting '/var/lib/libvirt/images/default-k8s-node01.qcow2', fmt=qcow2 size=68719476736 backing_file='/var/lib/libvirt/images/default-k8s-kubash.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off \r\n"
+    ],
+    [
+      0.72773,
+      "\r\nStarting install...\r\n"
+    ],
+    [
+      0.861113,
+      "Domain creation completed.\r\n"
+    ],
+    [
+      0.189437,
+      "Formatting '/var/lib/libvirt/images/default-k8s-node02.qcow2', fmt=qcow2 size=68719476736 backing_file='/var/lib/libvirt/images/default-k8s-kubash.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off \r\n"
+    ],
+    [
+      0.763486,
+      "\r\nStarting install...\r\n"
+    ],
+    [
+      0.770282,
+      "Domain creation completed.\r\n"
+    ],
+    [
+      0.194008,
+      "Formatting '/var/lib/libvirt/images/default-k8s-node03.qcow2', fmt=qcow2 size=68719476736 backing_file='/var/lib/libvirt/images/default-k8s-kubash.qcow2' encryption=off cluster_size=65536 lazy_refcounts=off \r\n"
+    ],
+    [
+      0.766322,
+      "\r\nStarting install...\r\n"
+    ],
+    [
+      0.647457,
+      "Domain creation completed.\r\n"
+    ],
+    [
+      1.0,
+      "# Host 192.168.122.216 found: line 763\r\n# Host 192.168.122.216 found: line 764\r\n# Host 192.168.122.216 found: line 765\r\n"
+    ],
+    [
+      0.000148,
+      "/home/coopadmin/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/coopadmin/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.043701,
+      "# 192.168.122.216:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.030627,
+      "# 192.168.122.216:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.03092,
+      "# 192.168.122.216:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.035579,
+      "# Host 192.168.122.217 found: line 763\r\n# Host 192.168.122.217 found: line 764\r\n# Host 192.168.122.217 found: line 765\r\n"
+    ],
+    [
+      0.00026,
+      "/home/coopadmin/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/coopadmin/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.033212,
+      "# 192.168.122.217:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.024629,
+      "# 192.168.122.217:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.023158,
+      "# 192.168.122.217:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.030492,
+      "# Host 192.168.122.218 found: line 763\r\n# Host 192.168.122.218 found: line 764\r\n# Host 192.168.122.218 found: line 765\r\n"
+    ],
+    [
+      0.000272,
+      "/home/coopadmin/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/coopadmin/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.048047,
+      "# 192.168.122.218:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.036572,
+      "# 192.168.122.218:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.032662,
+      "# 192.168.122.218:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.035705,
+      "# Host 192.168.122.219 found: line 763\r\n# Host 192.168.122.219 found: line 764\r\n# Host 192.168.122.219 found: line 765"
+    ],
+    [
+      6.2e-05,
+      "\r\n"
+    ],
+    [
+      0.000222,
+      "/home/coopadmin/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/coopadmin/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.048751,
+      "# 192.168.122.219:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.031241,
+      "# 192.168.122.219:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.038254,
+      "# 192.168.122.219:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.032728,
+      "# Host 192.168.122.220 found: line 763\r\n# Host 192.168.122.220 found: line 764\r\n# Host 192.168.122.220 found: line 765\r\n"
+    ],
+    [
+      0.000292,
+      "/home/coopadmin/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/coopadmin/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.04827,
+      "# 192.168.122.220:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.030421,
+      "# 192.168.122.220:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.038335,
+      "# 192.168.122.220:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.036001,
+      "# Host 192.168.122.221 found: line 763\r\n# Host 192.168.122.221 found: line 764\r\n# Host 192.168.122.221 found: line 765\r\n"
+    ],
+    [
+      0.000178,
+      "/home/coopadmin/.ssh/known_hosts updated.\r\nOriginal contents retained as /home/coopadmin/.ssh/known_hosts.old\r\n"
+    ],
+    [
+      0.034611,
+      "# 192.168.122.221:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.030398,
+      "# 192.168.122.221:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      0.029912,
+      "# 192.168.122.221:22 SSH-2.0-OpenSSH_7.4\r\n"
+    ],
+    [
+      1.0,
+      "master02\r\n127.0.1.1 master02.example.com master02  \r\n"
+    ],
+    [
+      0.032779,
+      "master01\r\n127.0.1.1 master01.example.com master01  \r\n"
+    ],
+    [
+      0.00901,
+      "node01\r\n127.0.1.1 node01.example.com node01  \r\n"
+    ],
+    [
+      0.012164,
+      "master03\r\n127.0.1.1 master03.example.com master03  \r\n"
+    ],
+    [
+      0.017092,
+      "node02\r\n127.0.1.1 node02.example.com node02  \r\n"
+    ],
+    [
+      0.323783,
+      "node03\r\n127.0.1.1 node03.example.com node03  \r\n"
+    ],
+    [
+      0.009985,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r\u001bk~/.kubash\u001b\\\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~/.kubash% \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      1.0,
+      "s"
+    ],
+    [
+      0.000108,
+      "\bsu"
+    ],
+    [
+      9.3e-05,
+      "d"
+    ],
+    [
+      9.2e-05,
+      "o"
+    ],
+    [
+      3.6e-05,
+      " "
+    ],
+    [
+      0.000123,
+      "v"
+    ],
+    [
+      0.000168,
+      "ir"
+    ],
+    [
+      0.00013,
+      "s"
+    ],
+    [
+      3.8e-05,
+      "h"
+    ],
+    [
+      2.6e-05,
+      " "
+    ],
+    [
+      0.000144,
+      "l"
+    ],
+    [
+      6.7e-05,
+      "i"
+    ],
+    [
+      0.000162,
+      "s"
+    ],
+    [
+      4.2e-05,
+      "t"
+    ],
+    [
+      2.6e-05,
+      " "
+    ],
+    [
+      0.838847,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      4.6e-05,
+      "\r\r\n"
+    ],
+    [
+      0.000882,
+      "\u001bkvirsh\u001b\\"
+    ],
+    [
+      0.03495,
+      " Id    Name                           State\r\n----------------------------------------------------\r\n"
+    ],
+    [
+      0.000267,
+      " 57    master01                       running\r\n"
+    ],
+    [
+      0.000271,
+      " 58    master02                       running\r\n"
+    ],
+    [
+      0.000443,
+      " 59    master03                       running\r\n"
+    ],
+    [
+      0.000384,
+      " 60    node01                         running\r\n"
+    ],
+    [
+      0.000217,
+      " 61    node02                         running\r\n"
+    ],
+    [
+      0.000352,
+      " 62    node03                         running\r\n\r\n"
+    ],
+    [
+      0.00367,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r"
+    ],
+    [
+      0.000151,
+      "\u001bk~/.kubash\u001b\\"
+    ],
+    [
+      0.000638,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~/.kubash% \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      1.0,
+      "k"
+    ],
+    [
+      0.223726,
+      "\bku"
+    ],
+    [
+      0.12025,
+      "b"
+    ],
+    [
+      0.128037,
+      "a"
+    ],
+    [
+      0.096011,
+      "s"
+    ],
+    [
+      0.071702,
+      "h"
+    ],
+    [
+      0.160448,
+      " "
+    ],
+    [
+      0.383724,
+      "p"
+    ],
+    [
+      0.14392,
+      "i"
+    ],
+    [
+      0.088011,
+      "n"
+    ],
+    [
+      0.151827,
+      "g"
+    ],
+    [
+      0.136111,
+      "\u001b[?1l\u001b>\r"
+    ],
+    [
+      4.6e-05,
+      "\r\n"
+    ],
+    [
+      0.000883,
+      "\u001bkkubash\u001b\\"
+    ],
+    [
+      0.664193,
+      "master03\r\n192.168.122.218 root pong\r\n"
+    ],
+    [
+      0.006751,
+      "master02\r\n192.168.122.217 root pong\r\n"
+    ],
+    [
+      0.010668,
+      "master01\r\n192.168.122.216 root pong\r\n"
+    ],
+    [
+      0.00902,
+      "node01\r\n192.168.122.219 root pong\r\n"
+    ],
+    [
+      0.017471,
+      "node02\r\n192.168.122.220 root pong\r\n"
+    ],
+    [
+      0.326954,
+      "node03\r\n192.168.122.221 root pong\r\n"
+    ],
+    [
+      0.009664,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                              \r \r\u001bk~/.kubash\u001b\\\r\u001b[0m\u001b[23m\u001b[24m\u001b[Jcoopadmin@artemis:~/.kubash% \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      1.0,
+      "\r\r\n"
+    ]
+  ],
+  "command": null,
+  "env": {
+    "TERM": "screen",
+    "SHELL": "/bin/zsh"
+  },
+  "height": 34,
+  "duration": 24.459588
+}

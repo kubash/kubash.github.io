@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{124:function(t,e){t.exports={data:{site:{siteMetadata:{title:"K8$",description:"Kubash - (K8$) the shell for K8S"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----842821a6a53a8bcdf6ef.js.map
